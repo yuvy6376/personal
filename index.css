@@ -1,8 +1,8 @@
 .header {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background:  #b3b3ff; /*  background */
-  color: white;  /*white text color*/
+  padding: 80px; 
+  text-align: center; 
+  background:  #b3b3ff;
+  color: white;  
 }
 
 
@@ -11,59 +11,56 @@
 }
 
 .navbar {
-  overflow: hidden; /* Hide overflow */
-  background-color: #333; /* Dark background color */
+  overflow: hidden; 
+  background-color: #333; 
 }
 
 .navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
-  text-decoration: none; /* Remove underline */
+  float: left; 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
 }
 
 .navbar a.right {
-  float: right; /* Float a link to the right */
+  float: right; 
 }
 
 .navbar a:hover {
-  background-color: #ddd; /* Grey background color */
-  color: black; /* Black text color */
+  background-color: #ddd; 
+  color: black; 
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* Column container */
+
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 
 
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
 .side {
-  flex: 30%; /* Set the width of the sidebar */
-  background-color: #cce6ff; /* Grey background color */
-  padding: 20px; /* Some padding */
+  flex: 30%;
+  background-color: #cce6ff; 
+  padding: 20px; 
 }
 
-/* Main column */
+
 .main {
-  flex: 70%; /* Set the width of the main content */
-  background-color: #ffe6e6; /* White background color */
-  padding: 20px; /* Some padding */
+  flex: 70%; 
+  background-color: #ffe6e6; 
+  padding: 20px; 
 }
 
 
 
 .footer {
-  padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
+  padding: 20px; 
+  text-align: center; 
+  background: #ddd; 
 }
